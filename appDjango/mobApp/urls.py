@@ -8,4 +8,5 @@ urlpatterns = [
     # path('', index, name='index'),
     path('api/get/cars/', CarsSerializerGet.as_view(), name='Cars'),
     # path('cars/create/', add_auto.as_view(), name='cars-create'),
+    path("addcar/", views.updatecar)
 ]
